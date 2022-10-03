@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 cd /home/ubuntu/nodeapp
-node app.js
+runuser -l ubuntu -c 'node app.js'
